@@ -23,4 +23,3 @@ function currentLine(line){
     }
       return `The line is currently: ${curline.join(', ')}`
 }
-
