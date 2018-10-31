@@ -15,12 +15,12 @@ function currentLine(line){
   if (line.length < 1){
     return "The line is currently empty."
   }
+  else{
+    const curline = []
+
+    for (let i = 0, l = line.length; i < l; i++) {
+      curline.push(`${i + 1}. ${line[i]}`)
+    }
+      return `The line is currently: ${curline.join(', ')}`
 }
-/*  else{
-    lineis = "The line is currently:"
-    i = line.length
-    linewhile = line.clone
-    while (i>0)
-    lineis
-}
-*/
+
