@@ -22,4 +22,5 @@ function currentLine(line){
       curline.push(`${i + 1}. ${line[i]}`)
     }
       return `The line is currently: ${curline.join(', ')}`
+    }
 }
